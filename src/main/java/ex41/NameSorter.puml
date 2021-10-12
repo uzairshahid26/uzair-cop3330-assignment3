@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class NameSorter {
++ main(String[]args)
++ outputNames(names: ArrayList,<String>)
++ readNames(input: Scanner, names: ArrayList<String>)
+}
+
+
+
+@enduml

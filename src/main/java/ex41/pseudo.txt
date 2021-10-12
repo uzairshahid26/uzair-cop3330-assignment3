@@ -1,0 +1,23 @@
+
+class NameSorter
+defining the class NameSorter
+defining the readNames() function to read the data from Scanner object to the ArrayList
+reading the data till the file has nextLine
+adding the read line to the list of names
+
+defining the function to print the names in the file
+public static void outputNames
+
+creating a FileWriter for the output file
+writing the header of the output file about how many names are read from the input file
+writing the names in the file after the header and separator
+closing the output FileWriter to avoid memory leakage
+
+public static void main
+creating a scanner object to read from input file ( from default location)
+declaring an ArrayList for storing the names
+reading the names from the input file by calling the readNames() function
+sorting the list of names using sort function
+closing the scanner object after reading the file
+writing the required data to the output file
+if any exception is raised in writing to the output file then printing the exception on the console

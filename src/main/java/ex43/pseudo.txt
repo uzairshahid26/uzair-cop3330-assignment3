@@ -1,0 +1,21 @@
+defining the WebSiteGenerator class
+
+variables to store the intermediate and required data
+and creating a scanner object to take input from user
+asking the user to enter the website name
+asking the user to enter the author name
+asking the user that whether it want JavaScript folder or not
+asking the user that whether it want CSS folder or not
+getting the current directory to make website folder in the current directory
+appending site name to the path of current directory
+creating a file object with the currentPath
+making the directory/folder for entered siteName
+if website folder to not exist then it gets created and if it is created then
+creating its sub folders and files
+
+using try-catch to handle the exception that can raise due to writing in the index.html file
+if the user wants then creating a folder using the mkdir() method of the File class
+handling the exception if raised by the FileWriter
+if website exist or cannot be created due to any other errors then printing
+not created message
+closing the Scanner object

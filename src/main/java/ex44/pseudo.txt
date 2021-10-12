@@ -1,0 +1,25 @@
+To read json file, first you need to add one external library
+This is the library json-simple-1.1.1.jar
+Create one json parser object
+
+Read json file using parser and store it in obj
+
+Create json object to read internal values
+
+Reading products array from  the file
+
+Create buffered reader object to take user input
+
+Create string variable
+
+Flag is used whether given string is present or not
+
+Create iterator for products array
+Compare it with given input
+System.out.println("Name: "+name);
+                    System.out.println("Price: "+json.get("price"));
+                    System.out.println("Quantity: "+json.get("quantity"));
+                    flag = 1;
+                     //If flag value is zero, then value is not found
+                                if(flag == 0){
+                                    System.out.println("Sorry, that product was not found in our inventory");

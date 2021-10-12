@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class WordFrequencyFinder {
++ main(String[] args) throws IOException
+
+}
+
+@enduml

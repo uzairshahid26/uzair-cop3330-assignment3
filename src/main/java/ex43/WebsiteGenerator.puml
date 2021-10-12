@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract App {
+
++ main(String[] args)
+}
+
+
+abstract class WebsiteGenerator {
++ String siteName
++ String author
++ String path
+
+
+
++ String createWebsite()
++ String createJSFolder()
++ String createCSSFolder()
++ String createHTMl()
+
+}
+
+App <--o WebsiteGenerator
+
+
+
+
+
+@enduml

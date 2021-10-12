@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class WordFinder {
++main (String[] args) throws IOException
+}
+WordFinder <|-- ReadFile
+
+class ReadFile {
+- ArrayList<String> list
+- Scanner sc
++ ReadFile() throws FileNotFoundException
++ readFile()
++ ArrayList<String> getData()
+}
+WordFinder <|-- WriteFile
+
+class WriteFile {
+- FileWriter writer
+- count_Modification
+- ArrayList<String> list;
++ WriteFile(String name, ArrayList<String> list) throws IOException
++ writeFile() throws IOException
++ getModification()
+}
+
+
+@enduml
